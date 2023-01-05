@@ -1,0 +1,1 @@
+{"version":3,"sources":["errorPage.scss"],"names":[],"mappings":"AAAA,+BAEE,OAAQ,KAAA,KAFV,4BAME,WAAY,OACZ,UAAW","file":"5-ui.min.css","sourcesContent":[".errorPage {\n\t.errorPage__wrapper {\n\t\tmargin: 5rem auto;\n\t}\n\n\t.errorPage__copy {\n\t\ttext-align: center;\n\t\tfont-size: 1.2rem;\n\t}\n}"]}
