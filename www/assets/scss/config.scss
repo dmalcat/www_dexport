@@ -1,5 +1,5 @@
 // Grid size
-$grid-max-width: 90rem;
+$grid-max-width: 1140px;
 
 
 // Spaces
@@ -12,7 +12,7 @@ $base-line-height: 1.5;
 
 $base-paragraph-size: 1rem;
 
-$hero-font-size: 4rem;
+$hero-font-size: 48px;
 $h1-font-size: 3rem;
 $h2-font-size: 2.25rem;
 $h3-font-size: 1.75rem;
@@ -50,7 +50,7 @@ $form-input-text-color: $black;
 
 // Common radius
 $base-radius: 0.5rem;
-$button-radius: 0.5rem;
+$button-radius: 0;
 
 // Header
 $header-bg-color: $white;

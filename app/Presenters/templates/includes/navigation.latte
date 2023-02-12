@@ -1,11 +1,14 @@
 <nav class="navigation">
 	<ul class="navigation__list">
 		<li n:class="navigation__item, $presenter->isLinkCurrent('Homepage:default') ? navigation__item--active">
-			<a class="navigation__link" n:href="Homepage:">Homepage</a>
+			<a class="navigation__link" n:href="Homepage:">Naše služby</a>
 		</li>
 		<li n:class="navigation__item, $presenter->isLinkCurrent('Styleguide:default') ? navigation__item--active">
-			<a class="navigation__link" n:href="Styleguide:">Styleguide</a>
+			<a class="navigation__link" n:href="Styleguide:">Reference</a>
 		</li>
-		<a class="navigation__link" n:href="this, lang => 'sk'">SK</a>
+		<li n:class="navigation__item, $presenter->isLinkCurrent('Styleguide:default') ? navigation__item--active">
+			<a class="navigation__link" n:href="Styleguide:">Novinky</a>
+		</li>
+		{*<a class="navigation__link" n:href="this, lang => 'sk'">DE</a>*}
 	</ul>
 </nav>

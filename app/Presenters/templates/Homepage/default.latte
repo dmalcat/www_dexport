@@ -4,8 +4,34 @@
 {block content}
 
 <section class="cover">
-	<div class="cover__visual">
+	<div class="cover__inner">
+		<div class="cover__wrapper wrapper">
+			<div class="cover__image">
+				<img src="{$basePath}/assets/images/content/cover/cover-test.jpg" alt="">
+			</div>
+			<div class="cover__desc">
+				<span class="cover__label">
+					<span>Bussiness development</span>
+				</span>
+				<h1>
+					Překročte hranice
+				</h1>
+				<p class="cover__copy">
+					Získávejte nové obchodní příležitosti v Německu.
+				</p>
+				<div class="cover__button">
+					<a href="" class="button button--yellow button--icon">
+						<span class="button__text">Naše služby</span>
+						<span class="button__in">
+							<img class="button__icon svg" src="{$basePath}/assets/images/ui/icons/arrow.svg" alt="">
+						</span>
+					</a>
+					{*}<a class="button button--white" href="">Naše služby</a>{*}
+				</div>
+			</div>
+		</div>
 		<div class="cover__visual-inner">
+			{*}
 			<picture class="cover__image">
 				<source srcset="{$basePath}/assets/images/content/cover/cover_375.webp" media="(max-width: 375px)" type="image/webp">
 				<source srcset="{$basePath}/assets/images/content/cover/cover_375.png" media="(max-width: 375px)" type="image/png">
@@ -21,18 +47,10 @@
 				<source srcset="{$basePath}/assets/images/content/cover/cover_2560.png" media="(max-width: 2560px)" type="image/png">
 				<img src="{$basePath}/assets/images/content/cover/cover_1920.png" alt="">
 			</picture>
+			{*}
+			{*}<img class="cover__image" src="{$basePath}/assets/images/content/cover/cover-test.jpg" alt="">{*}
 		</div>
 	</div>
 
-	<div class="cover__wrapper wrapper">
-		<h1>
-			The Fresh Bang welcome page
-		</h1>
-		<p class="cover__copy">
-			Hello world!
-		</p>
-		<div class="cover__button">
-			<a class="button button--black" href="">Cover button</a>
-		</div>
-	</div>
+	
 </section>

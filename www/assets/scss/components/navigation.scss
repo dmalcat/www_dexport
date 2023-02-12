@@ -22,7 +22,10 @@
 		}
 	}
 
-	.navigation__link {}
+	.navigation__link {
+		color: $white;
+		text-decoration: none;
+	}
 }
 
 .navigation--mobile {

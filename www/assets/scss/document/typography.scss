@@ -1,7 +1,7 @@
 @import '../config';
 
-html,
 body {
+	font-family: 'Barlow', sans-serif;
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 }

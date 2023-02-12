@@ -2,31 +2,56 @@
 
 .cover {
 	position: relative;
+	
+	.cover__inner {
+		background-color: #27303B;
+		height: 266px;	
+	}
+	
 	.cover__image {
 		display: block;
-		max-width: 1920px;
+		max-width: 1140px;
 		width: 100%;
 		margin: 0 auto;
 		img {
-			display: block;
 			width: 100%;
 		}
 	}
 
 	.cover__wrapper {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
+		position: relative;
+		padding: 0;
+	}
+
+	.cover__desc {
 		position: absolute;
-		top: 50%; left: 50%;
-		transform: translate(-50%, -50%);
+		top: 0; left: 0; right: 0; bottom: 0;
+		display: flex;
+		justify-content: center;
+		padding: 2rem 4rem;
+		flex-direction: column;
+	}
+
+	.cover__label {
+		span {
+			display: inline-block;
+			font-size: 11px;
+			color: $white;
+			border: 1px solid #464646;
+			padding: 2.5px 5px;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+		}
 	}
 
 	h1 {
 		font-size: $hero-font-size;
 		color: $black;
 		margin-bottom: 1rem;
-		text-align: center;
+		text-align: left;
+		color: $white;
+		font-weight: 500;
+		/*
 		@media screen and (max-width: 1270px) {
 			font-size: $hero-font-size - 0.5rem;
 		}
@@ -38,9 +63,12 @@
 		@include max375px {
 			font-size: $hero-font-size - 0.5rem;
 		}
+		*/
 	}
 
 	.cover__copy {
+		color: #a8a8a8;
 		margin-bottom: 2rem;
+		font-size: 19px;
 	}
 }
