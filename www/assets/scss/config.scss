@@ -1,5 +1,5 @@
 // Grid size
-$grid-max-width: 1140px;
+$grid-max-width: 1280px;
 
 
 // Spaces
@@ -7,13 +7,13 @@ $section-gutter: 4rem;
 
 
 // Typography
-$base-font-size: 15px;
+$base-font-size: 14px;
 $base-line-height: 1.5;
 
-$base-paragraph-size: 1rem;
+$base-paragraph-size: 14px;
 
 $hero-font-size: 48px;
-$h1-font-size: 3rem;
+$h1-font-size: 40px;
 $h2-font-size: 2.25rem;
 $h3-font-size: 1.75rem;
 $h4-font-size: 1.5rem;
@@ -24,10 +24,14 @@ $underlined-links: true;
 // Fonts
 $fonts-path: '../../fonts/';
 
+$font-barlow: 'Barlow', sans-serif;;
+$font-poppins: 'Poppins', sans-serif;
+
 
 // Colors
 $white: #FFF;
 $black: #000;
+$yellow: #f5bb40;
 
 $base-text-color: $white;
 
@@ -38,18 +42,18 @@ $form-columns-gap: 1rem;
 $form-input-padding-tops: 0.5rem;
 $form-input-padding-sides: 1rem;
 
-$form-input-border-radius: 0.5rem;
+$form-input-border-radius: 0;
 $form-input-border-width: 1px;
-$form-input-border-color: $black;
+$form-input-border-color: #8f8f8f;
 
 $form-input-text-size: $base-font-size;
 
 $form-input-background-color: transparent;
-$form-input-text-color: $black;
+$form-input-text-color: $white;
 
 
 // Common radius
-$base-radius: 0.5rem;
+$base-radius: 6px;
 $button-radius: 0;
 
 // Header

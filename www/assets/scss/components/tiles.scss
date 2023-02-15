@@ -1,0 +1,100 @@
+.tiles {
+    margin-top: 299px;
+    padding: 100px 0;
+    //background-image: url(../../images/ui/graph.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    .tiles__wrapper {
+        padding: 0;
+    }
+
+    .tiles__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tile {
+        width: 22.5%;
+        //background-color: #27303b;
+        background-color: $white;
+        padding: 2rem;
+        box-sizing: border-box;
+        border-radius: $base-radius;
+        -webkit-box-shadow: 0px 0px 50px 0px rgba(143,143,143,0.5);
+        -moz-box-shadow: 0px 0px 50px 0px rgba(143,143,143,0.5);
+        box-shadow: 0px 0px 50px 0px rgba(143,143,143,0.5);
+        .tile__icon {
+            display: block;
+            max-width: 70px;
+            margin: 0 auto 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            text-align: center;
+            color: #8f8f8f;
+            font-size: 14px;
+        }
+    }
+}
+
+.tiles--references {
+    margin-top: 0;
+    h1 {
+        margin-bottom: 80px;
+    }
+
+    .tiles__row {
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .tile {
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            background-image: url(../../images/ui/quote-sa.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 50px;
+            height: 50px;
+            top: -25px; right: 25px;
+            border-radius: $base-radius;
+            
+            top: 25px; right: 25px;
+            opacity: 0.3;
+        }
+
+        p {
+            text-align: left;
+        }
+
+        .tile__logo {
+            display: block;
+            width: 100%;
+            max-width: 150px;
+            margin-bottom: 2rem;
+        }
+
+        .tile__signature {
+            display: flex;
+            flex-direction: column;
+            .name {
+                color: #494949;
+            }
+        }
+    }
+
+    .tile--sa {
+        &:before {
+            
+        }
+    }
+}

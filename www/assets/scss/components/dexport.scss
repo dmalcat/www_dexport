@@ -1,0 +1,74 @@
+@import '../config';
+
+.dexport {
+    position: relative;
+    .dexport__row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dexport__col {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        box-sizing: border-box;
+        z-index: 10;
+    }
+
+    .dexport__col--img {
+        padding-right: 2.5rem;
+    }
+
+    .dexport__col--copy {
+        padding-left: 2.5rem;
+    }
+
+    .dexport__img {
+        width: 100%;
+        border-radius: $base-radius;
+    }
+
+    .dexport__block {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .dexportio__graph {
+        position: absolute;
+        display: block;
+        opacity: 0.2;
+        max-width: 500px;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .dexport__row--numbers {
+        gap: 7.5rem;
+        margin: 5rem 0;
+    }
+
+    .dexport__item {
+        max-width: 260px;
+        width: 100%;
+        text-align: center;
+        .number {
+            display: block;
+            font-size: 60px;
+            color: $white;
+            font-weight: 700;
+            color: $yellow;
+        }
+
+        .label {
+            color: #8f8f8f;
+            font-size: 18px;
+        }
+    }
+}

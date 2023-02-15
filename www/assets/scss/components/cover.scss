@@ -5,20 +5,21 @@
 	
 	.cover__inner {
 		background-color: #27303B;
-		height: 266px;	
+		height: 299px;	
 	}
 	
 	.cover__image {
 		display: block;
-		max-width: 1140px;
+		max-width: 1280px;
 		width: 100%;
 		margin: 0 auto;
 		img {
 			width: 100%;
+			border-radius: $base-radius;
 		}
 	}
 
-	.cover__wrapper {
+	.cover__in {
 		position: relative;
 		padding: 0;
 	}
@@ -28,7 +29,7 @@
 		top: 0; left: 0; right: 0; bottom: 0;
 		display: flex;
 		justify-content: center;
-		padding: 2rem 4rem;
+		padding: 2rem 10rem;
 		flex-direction: column;
 	}
 
@@ -40,17 +41,21 @@
 			border: 1px solid #464646;
 			padding: 2.5px 5px;
 			text-transform: uppercase;
-			margin-bottom: 15px;
+			margin-bottom: 2rem;
 		}
 	}
 
 	h1 {
 		font-size: $hero-font-size;
 		color: $black;
-		margin-bottom: 1rem;
+		margin-bottom: 1.5rem;
 		text-align: left;
 		color: $white;
 		font-weight: 500;
+		&:after {
+			display: none;
+		}
+
 		/*
 		@media screen and (max-width: 1270px) {
 			font-size: $hero-font-size - 0.5rem;

@@ -23,8 +23,13 @@
 	}
 
 	.navigation__link {
-		color: $white;
+		color: #a8a8a8;
 		text-decoration: none;
+		transition: all 200ms ease-in-out;
+		font-size: 15px;
+		&:hover {
+			color: $white;
+		}
 	}
 }
 

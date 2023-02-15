@@ -1,0 +1,22 @@
+@import '../config';
+
+.references {
+    .references__slider {
+        max-width: 800px;
+        width: 100%;
+        margin: 4rem auto 0;
+    }
+
+    .references__logo {
+        max-width: 220px;
+        width: 100%;
+        margin: 0 auto 2rem;
+    }
+
+    p {
+        color: #8f8f8f;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+}
