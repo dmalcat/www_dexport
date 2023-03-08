@@ -12,7 +12,7 @@ import del from 'del';
 
 sass.compiler = require('node-sass');
 
-const assetsPath = './www/assets';
+const assetsPath = './assets';
 
 const paths = {
 	styles: {

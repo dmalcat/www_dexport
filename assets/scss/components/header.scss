@@ -15,7 +15,7 @@
 
 	@include max480px {
 		padding: 10px 1rem;
-		
+
 	}
 
 	.header__wrapper {
@@ -37,6 +37,10 @@
 		width: 100%;
 		@include max768px {
 			max-width: 150px;	
+		}
+
+		@include max480px {
+			max-width: 125px;
 		}
 	}
 }
