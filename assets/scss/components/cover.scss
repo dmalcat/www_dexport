@@ -1,0 +1,126 @@
+@import '../config';
+
+.cover {
+	position: relative;
+	margin-top: -1px;
+	
+	.cover__inner {
+		background-color: $header-color;
+		height: 299px;	
+		@include max768px {
+			height: auto;		
+		}
+	}
+
+	.cover__wrapper {
+		@include max768px {
+			padding: 0;
+		}
+	}
+	
+	.cover__image {
+		display: block;
+		max-width: 1280px;
+		width: 100%;
+		margin: 0 auto;
+		img {
+			width: 100%;
+			border-radius: $base-radius;
+		}
+	}
+
+	.cover__in {
+		position: relative;
+		padding: 0;
+	}
+
+	.cover__desc {
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		display: flex;
+		justify-content: center;
+		padding: 2rem 10rem;
+		flex-direction: column;
+		@include max940px {
+			padding: 2rem 5rem;
+		}
+
+		@include max640px {
+			padding-right: 2.5rem;
+		}
+	}
+
+	.cover__label {
+		span {
+			display: inline-block;
+			font-size: 11px;
+			color: $white;
+			border: 1px solid #464646;
+			padding: 2.5px 5px;
+			text-transform: uppercase;
+			margin-bottom: 2rem;
+		}
+	}
+
+	h1 {
+		font-size: $hero-font-size;
+		color: $black;
+		margin-bottom: 1.5rem;
+		text-align: left;
+		color: $white;
+		font-weight: 500;
+		&:after {
+			display: none;
+		}
+
+		@include max940px {
+			font-size: 38px;
+		}
+
+		@include max768px {
+			font-size: 30px;
+		}
+
+		@include max480px {
+			//font-size: 24px;
+			margin-bottom: 1rem;
+			br {
+				display: none;
+			}
+		}
+
+		@media screen and (max-width: 400px) {
+			font-size: 24px;
+		}
+		
+		/*
+		@media screen and (max-width: 830px) {
+			font-size: $hero-font-size - 1rem;
+		}
+
+		@include max375px {
+			font-size: $hero-font-size - 0.5rem;
+		}
+		*/
+	}
+
+	.cover__copy {
+		color: #a8a8a8;
+		margin-bottom: 2rem;
+		font-size: 19px;
+		@include max940px {
+			br {
+				display: none;
+			}
+		}
+
+		@include max768px {
+			font-size: 16px;
+		}
+
+		@include max480px {
+			font-size: 15px;
+			margin-bottom: 1rem;
+		}
+	}
+}

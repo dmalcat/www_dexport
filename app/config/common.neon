@@ -19,7 +19,7 @@ parameters:
 	translations: '%appDir%/locales/translations.neon'
 
 	mailing:
-		imageBasePath: '%appDir%/../www/assets/images'
+		imageBasePath: '%appDir%/../assets/images'
 
 		senders: 'MAIL SENDER <www@freshnet.cz>'
 

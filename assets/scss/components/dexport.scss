@@ -1,0 +1,132 @@
+@import '../config';
+
+.dexport {
+    position: relative;
+    .dexport__row {
+        display: flex;
+        justify-content: center;
+        @include max768px {
+            flex-direction: column;
+        }
+    }
+
+    .dexport__col {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        box-sizing: border-box;
+        z-index: 10;
+        @include max768px {
+            width: 100%;
+        }
+    }
+
+    .dexport__col--img {
+        padding-right: 2.5rem;
+        @include max768px {
+            padding-right: 0;    
+        }
+    }
+
+    .dexport__col--copy {
+        padding-left: 2.5rem;
+        @include max768px {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 0;
+            flex-flow: row wrap;
+            margin-top: 2rem;
+        }
+    }
+
+    .dexport__img {
+        width: 100%;
+        border-radius: $base-radius;
+    }
+
+    .dexport__block {
+        margin-bottom: 20px;
+        @include max768px {
+            width: 47.5%;
+        }
+
+        @include max480px {
+            width: 100%;
+        }
+    }
+
+    .dexport__button {
+        @include max768px {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .dexportio__graph {
+        position: absolute;
+        display: block;
+        opacity: 0.2;
+        max-width: 500px;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @include max768px {
+            top: auto;
+            bottom: -17.5%;
+        }
+
+        @include max480px {
+            display: none;
+        }
+    }
+
+    .dexport__row--numbers {
+        gap: 7.5rem;
+        margin: 5rem 0;
+        @include max768px {
+            gap: 2.5rem;
+            flex-direction: initial;
+            flex-flow: row wrap;
+        }
+
+        @include max480px {
+            margin-bottom: 0;
+        }
+    }
+
+    .dexport__item {
+        max-width: 260px;
+        width: 100%;
+        text-align: center;
+        @include max768px {
+            max-width: 200px;
+        }
+
+        .number {
+            display: block;
+            font-size: 60px;
+            color: $white;
+            font-weight: 700;
+            color: $yellow;
+            @include max768px {
+                font-size: 40px;    
+            }
+        }
+
+        .label {
+            color: #8f8f8f;
+            font-size: 18px;
+            @include max768px {
+                font-size: 16px;
+            }
+        }
+    }
+}
