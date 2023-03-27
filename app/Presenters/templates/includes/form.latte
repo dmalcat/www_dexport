@@ -1,0 +1,50 @@
+<section class="contactForm bg-dark" id="kontaktujte-nas">
+	<div class="contactForm__wrapper wrapper">
+		<h1>Kontaktujte nás</h1>
+
+		<div class="form">
+            {form contactForm}
+            <ul class=error n:if="$form->ownErrors">
+                <li n:foreach="$form->ownErrors as $error">{$error}</li>
+            </ul>
+            <div class="form__inner">
+                <div class="form__group">
+                    <div class="form__control">
+                        <label n:name=name class="form__label">Jméno a příjmení</label>
+                        <input n:name=name type="text" class="form__input">
+                    </div>
+                    
+                </div>
+                <div class="form__group">
+                    <div class="form__control">
+                        <label n:name=contact class="form__label">Telefon nebo email</label>
+                        <input n:name=contact type="text" class="form__input">
+                    </div>
+                    <div class="form__control">
+                        <label n:name=company class="form__label">Společnost</label>
+                        <input n:name=company type="text" class="form__input">
+                    </div>
+                </div>
+                <div class="form__group form__group--1c">
+                    <div class="form__control">
+                        <label n:name=message class="form__label">Vaše zpráva</label>
+                        <textarea n:name=message type="text" class="form__textarea"></textarea>
+                    </div>
+                </div>
+                <div class="form__control form__control--city">
+                    <label n:name=city class="form__label">Město</label>
+                    <input n:name=city type="text" class="form__input">
+                </div>
+                <div class="form__group form__group--1c">
+                    <div class="form__control">
+                        <p>Odesláním souhlasíte se <a href="">zpracováním osobních údajů</a>.</p>
+                    </div>
+                </div>
+                <div class="form__group form__group--button">
+                    <input n:name=send class="button button--white" value="Odeslat" />
+                </div>
+            </div>
+            {/form}
+        </div>
+	</div>
+</section>
