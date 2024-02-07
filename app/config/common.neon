@@ -2,7 +2,7 @@ parameters:
 
 	presets:
 		contact:
-			mail: 'www@dexport.cz'
+			mail: 'info@dexport.cz'
 			phone: '+420777111222333'
 
 		analytics:
@@ -21,10 +21,10 @@ parameters:
 	mailing:
 		imageBasePath: '%appDir%/../assets/images'
 
-		senders: 'MAIL SENDER <www@dexport.cz>'
+		senders: 'MAIL SENDER <info@dexport.cz>'
 
 		groups:
-			admins: [ 'www@dexport.cz' ]
+			admins: [ 'info@dexport.cz' ]
 
 		mails:
 			contact:

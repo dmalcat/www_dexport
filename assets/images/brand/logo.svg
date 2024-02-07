@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="221px" height="63px" viewBox="0 0 221 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="206px" height="63px" viewBox="0 0 206 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>logo</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Homepage" transform="translate(-81.000000, -168.000000)">
-            <g id="logo" transform="translate(81.000000, 168.000000)">
-                <rect id="Rectangle" fill="#1E1E1C" x="0" y="0" width="38" height="11"></rect>
-                <rect id="Rectangle" fill="#DD0A13" x="0" y="26" width="38" height="11"></rect>
-                <rect id="Rectangle" fill="#F5BB40" x="0" y="52" width="38" height="11"></rect>
-                <text id="DEXPORT" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" letter-spacing="2.17815214" fill="#FFFFFF">
-                    <tspan x="66" y="41">DEXPORT</tspan>
-                </text>
+    <defs>
+        <path d="M9.75,32 C16.47,32 20.79,27.71 20.79,21.47 C20.79,15.2 16.47,10.94 9.75,10.94 L1.86,10.94 L1.86,32 L9.75,32 Z M9.42,27.56 L6.99,27.56 L6.99,15.32 L9.42,15.32 C13.29,15.32 15.57,17.6 15.57,21.47 C15.57,25.34 13.29,27.56 9.42,27.56 Z M36.57,32 L36.57,27.89 L28.8,27.89 L28.8,23.27 L35.67,23.27 L35.67,19.31 L28.8,19.31 L28.8,15.05 L36.57,15.05 L36.57,10.94 L23.67,10.94 L23.67,32 L36.57,32 Z M44.73,32 L48.51,25.55 L52.8,32 L58.77,32 L51.81,21.56 L58.5,10.94 L52.68,10.94 L48.96,17.3 L44.73,10.94 L38.76,10.94 L45.66,21.29 L38.91,32 L44.73,32 Z M66.48,32 L66.48,24.44 L69.66,24.44 C75.03,24.44 77.4,21.2 77.4,17.72 C77.4,13.85 74.82,10.94 69.66,10.94 L61.35,10.94 L61.35,32 L66.48,32 Z M69.27,20.36 L66.48,20.36 L66.48,15.08 L69.27,15.08 C71.31,15.08 72.18,16.1 72.18,17.72 C72.18,19.34 71.31,20.36 69.27,20.36 Z M90.03,32.21 C96,32.21 100.8,27.74 100.8,21.41 C100.8,15.08 96.03,10.64 90.03,10.64 C84.06,10.64 79.2,15.08 79.2,21.41 C79.2,27.74 84.06,32.21 90.03,32.21 Z M90.03,27.53 C86.61,27.53 84.45,25.1 84.45,21.41 C84.45,17.66 86.61,15.29 90.03,15.29 C93.39,15.29 95.58,17.66 95.58,21.41 C95.58,25.1 93.39,27.53 90.03,27.53 Z M108.78,32 L108.78,24.05 L110.01,24.05 L114.39,32 L120.18,32 L115.32,23.66 C118.56,22.7 120,20.21 120,17.57 C120,13.91 117.42,10.94 112.26,10.94 L103.65,10.94 L103.65,32 L108.78,32 Z M111.96,20.42 L108.78,20.42 L108.78,15.2 L111.96,15.2 C113.88,15.2 114.78,16.22 114.78,17.78 C114.78,19.43 113.88,20.42 111.96,20.42 Z M132.78,32 L132.78,15.05 L138.36,15.05 L138.36,10.94 L122.07,10.94 L122.07,15.05 L127.65,15.05 L127.65,32 L132.78,32 Z" id="path-1"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#1E1E1C" x="0" y="0" width="38" height="11"></rect>
+            <rect id="Rectangle" fill="#DD0A13" x="0" y="26" width="38" height="11"></rect>
+            <rect id="Rectangle" fill="#F5BB40" x="0" y="52" width="38" height="11"></rect>
+            <g id="DEXPORT" transform="translate(66.000000, 9.000000)">
+                <use fill="#000000" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
             </g>
         </g>
     </g>
