@@ -1,17 +1,23 @@
 <nav class="navigation">
 	<ul class="navigation__list">
-		<li n:class="navigation__item, $presenter->isLinkCurrent('Homepage:default') ? navigation__item--active">
+		<li class="navigation__item">
 			<a class="navigation__link" href="#nase-sluzby">{_'Naše služby'}</a>
 		</li>
-		<li n:class="navigation__item, $presenter->isLinkCurrent('Styleguide:default') ? navigation__item--active">
+		<li class="navigation__item">
 			<a class="navigation__link" href="#dexportujte">{_}Dexportujte{/_}</a>
 		</li>
-		<li n:class="navigation__item, $presenter->isLinkCurrent('Styleguide:default') ? navigation__item--active">
+		<li class="navigation__item">
 			<a class="navigation__link" href="#reference">{_}Reference{/_}</a>
 		</li>
-		<li n:class="navigation__item, $presenter->isLinkCurrent('Styleguide:default') ? navigation__item--active">
+		<li class="navigation__item">
 			<a class="navigation__link" href="#kontakt">{_}Kontakt{/_}</a>
 		</li>
-		<a class="navigation__link" n:href="this, lang => 'de'">DE</a>
+		<li class="navigation__item navigation__item--active">
+			{if $region == 'cz'}
+			<a class="navigation__link" n:href="this, region => 'de'">DE</a>
+			{else}
+			<a class="navigation__link" n:href="this, region => 'cz'">CZ</a>
+			{/if}
+		</li>
 	</ul>
 </nav>

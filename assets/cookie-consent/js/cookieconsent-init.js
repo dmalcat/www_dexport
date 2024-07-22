@@ -113,6 +113,59 @@ cc.run({
                     }
                 ]
             }
+        },
+        'de': {
+            consent_modal: {
+                title: 'Dexport verwendet Cookies.',
+                description: 'Das sind kleine Dateien, die es der Website ermöglichen, Ihnen nur die Inhalte anzubieten, die Sie erwarten, und Sie nicht mit Dingen zu belästigen, die Sie nicht interessieren, damit Sie finden können, was Sie suchen. Damit dies möglich ist, benötigen wir Ihre Zustimmung zur Speicherung von Cookies in Ihrem Browser.',
+                primary_btn: {
+                    text: 'OK, ich stimme zu',
+                    role: 'accept_all'      //'accept_selected' or 'accept_all'
+                },
+                secondary_btn: {
+                    text: 'Einstellungen',
+                    role: 'settings'       //'settings' or 'accept_necessary'
+                },
+                revision_message: '<br><br> Vážený uživateli, smluvní podmínky se od vaší poslední návštěvy změnily!'
+            },
+            settings_modal: {
+                title: 'Einstellungen für Cookies',
+                save_settings_btn: 'Ausgewählte akzeptieren',
+                accept_all_btn: 'Alle akzeptieren',
+                reject_all_btn: 'Alle ablehnen',
+                close_btn_label: 'Zavřít',
+                blocks: [
+                    {
+                        title: 'Wozu sind Cookies gut?',
+                        description: 'Cookies sind kleine Textdateien, die von Websites verwendet werden können, um Ihnen die für Sie interessanten Inhalte besser anzeigen zu können. <br><br> Einige Cookies werden von der Website selbst verwendet, andere werden von Dritten gesetzt, deren Dienste auf der Website erscheinen können. <br><br> Das neue Gesetz schreibt vor, dass wir für die Nutzung der Website von jedem Besucher die Zustimmung zur Verwendung von Cookies in diesen Kategorien einholen müssen:'
+                    }, {
+                        title: 'Erforderliche Cookies',
+                        description: 'Diese Cookies speichern keine persönlich identifizierbaren Informationen, aber die Website benötigt sie, um zu funktionieren. Sie können nicht deaktiviert werden.',
+                        toggle: {
+                            value: 'necessary',
+                            enabled: true,
+                            readonly: true  //cookie categories with readonly=true are all treated as "necessary cookies"
+                        }
+                    }, {
+                        title: 'Statistische Cookies',
+                        description: 'Wir verwenden anonymisierte, aggregierte statistische Cookies, um die Leistung der Website zu verbessern, Ressourcen und Besucherzahlen zu verfolgen.',
+                        toggle: {
+                            value: 'analytics',
+                            enabled: false,
+                            readonly: false
+                        },
+                    }, {
+                        title: 'Marketing-Cookies',
+                        description: 'Um die Art der Werbung, die Sie sehen, auf Sie abzustimmen und umgekehrt die Anzeige von Inhalten zu verhindern, die für Sie nicht relevant sind und Sie möglicherweise nicht interessieren, benötigen wir die Zustimmung zu Marketing-Cookies.',
+                        toggle: {
+                            value: 'targeting',
+                            enabled: false,
+                            readonly: false,
+                            reload: 'on_disable'            // New option in v2.4, check readme.md
+                        },
+                    }
+                ]
+            }
         }
     }
 });
