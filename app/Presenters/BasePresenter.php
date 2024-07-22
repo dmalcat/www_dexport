@@ -41,7 +41,7 @@ abstract class BasePresenter extends Nette\Application\UI\Presenter
 		// localization
 		$loc = $this->localization;
 		$loc->setRegion($this->getParameter('region', 'cz'));
-		$loc->setLanguage($loc->getRegion() === 'sk' ? 'sk' : 'cs');
+		$loc->setLanguage($loc->getRegion() === 'de' ? 'de' : 'cs');
 	}
 
 

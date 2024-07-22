@@ -1,17 +1,17 @@
 <nav class="navigation">
 	<ul class="navigation__list">
 		<li n:class="navigation__item, $presenter->isLinkCurrent('Homepage:default') ? navigation__item--active">
-			<a class="navigation__link" href="#nase-sluzby">Naše služby</a>
+			<a class="navigation__link" href="#nase-sluzby">{_'Naše služby'}</a>
 		</li>
 		<li n:class="navigation__item, $presenter->isLinkCurrent('Styleguide:default') ? navigation__item--active">
-			<a class="navigation__link" href="#dexportujte">Dexportujte</a>
+			<a class="navigation__link" href="#dexportujte">{_}Dexportujte{/_}</a>
 		</li>
 		<li n:class="navigation__item, $presenter->isLinkCurrent('Styleguide:default') ? navigation__item--active">
-			<a class="navigation__link" href="#reference">Reference</a>
+			<a class="navigation__link" href="#reference">{_}Reference{/_}</a>
 		</li>
 		<li n:class="navigation__item, $presenter->isLinkCurrent('Styleguide:default') ? navigation__item--active">
-			<a class="navigation__link" href="#kontakt">Kontakt</a>
+			<a class="navigation__link" href="#kontakt">{_}Kontakt{/_}</a>
 		</li>
-		{*<a class="navigation__link" n:href="this, lang => 'sk'">DE</a>*}
+		<a class="navigation__link" n:href="this, lang => 'de'">DE</a>
 	</ul>
 </nav>

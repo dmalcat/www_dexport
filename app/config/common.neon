@@ -71,8 +71,8 @@ services:
 	freshio.localization:
 		class: Freshio\Localization\Localization
 		arguments:
-			- [ cs, sk ] # languages
-			- [ cz, sk ] # regions
+			- [ cs, de ] # languages
+			- [ cz, de ] # regions
 		setup:
 			- setTranslator( @translator )
 

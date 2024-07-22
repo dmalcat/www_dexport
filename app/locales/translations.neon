@@ -1,10 +1,117 @@
 # CookieComponent
 
+'Nastavení cookies':
+	de: 'Cookie-Einstellungen'
+
 'Tyto webové stránky používají k poskytování služeb, personalizaci reklam a analýze návštěvnosti soubory cookie. Informace o tom, jak tyto webové stránky používáte, jsou sdíleny se společností Google. Používáním těchto webových stránek souhlasíte s použitím souborů cookie.':
 	sk: 'Tieto webové stránky používajú na poskytovanie služieb, personalizáciu reklám a analýzu návštevnosti súbory cookie. Informácie o tom, ako tieto webové stránky používate, sú zdieľané so spoločnosťou Google. Používaním týchto webových stránok súhlasíte s použitím súborov cookie.'
 
+# Navigation
 'Souhlasím':
-	sk: 'Súhlasím'
+	de: 'Ich stimme zu'
 
-'Nastavení cookies':
-	sk: 'Test'
+'Naše služby':
+	de: 'Unsere Dienstleistungen'
+
+'Dexportujte':
+	de: 'Exportieren Sie'
+
+'Reference':
+	de: 'Referenzen'
+
+'Kontakt':
+	de: 'Kontakt'
+
+'Domluvit schůzku':
+	de: 'Einen Termin vereinbaren'
+
+# Hero
+'Překročte hranice':
+	de: 'Überschreiten Sie die Grenzen'
+
+'Získávejte nové obchodní partnery v&nbsp;Německu.':
+	de: 'Gewinnen Sie neue Geschäftspartner in Deutschland.'
+
+'Pomohli jsme našim klientům <br> k obratu 3.7 milionů €':
+	de: 'Wir haben unseren Kunden zu einem Umsatz von 3,7 Millionen € verholfen'
+
+'Jsme externí obchodní oddělení s&nbsp;působností po&nbsp;celé Evropě':
+	de: 'Wir sind eine externe Vertriebsabteilung, die in ganz Europa tätig ist.'
+
+# Naše služby
+'Vstupte do&nbsp;Německa s&nbsp;jistotou':
+	de: 'Treten Sie sicher in den deutschen Markt ein'
+
+'Naší největší předností je&nbsp;autenticita a&nbsp;komunikace v&nbsp;mateřském jazyce. <br> Znalost prostředí německého trhu, německý jazyk na&nbsp;úrovni rodilého mluvčího <br> a ověřené kontakty jsou naší největší předností':
+	de: 'Unsere größte Stärke ist Authentizität und Kommunikation in der Muttersprache. Marktkenntnisse, deutsche Sprache auf Muttersprachlerniveau und bewährte Kontakte sind unsere größten Vorzüge'
+
+'Vyhledání partnerů':
+	de: 'Partnersuche'
+
+'Vyhledáme a&nbsp;oslovíme německého obchodního partnera v&nbsp;zastoupení':
+	de: 'Wir suchen und kontaktieren deutsche Geschäftspartner in Vertretung'
+
+'Komunikace':
+	de: 'Kommunikation'
+
+'Komunikace na&nbsp;nejvyšší obchodní úrovni a&nbsp;vyjednání nejpříznivějších podmínek':
+	de: 'Kommunikation auf höchstem Geschäftsniveau und Verhandlung der günstigsten Bedingungen'
+
+'Péče o&nbsp;obchodní partnery':
+	de: 'Betreuung von Geschäftspartnern'
+
+'Péče o&nbsp;stávající obchodní partnery a dlouhodobé udržování obchodních vztahů':
+	de: 'Betreuung bestehender Geschäftspartner und langfristige Pflege von Geschäftsbeziehungen.'
+
+# Dexportujte
+'Efektivita':
+	de: 'Effizienz'
+
+'DEXPORT&nbsp;představuje alternativu, která&nbsp;efektivně <br> získává nové obchodní partnery, zakázky <br> a dlouhodobé obchodní vztahy':
+	de: 'DEXPORT stellt eine Alternative dar, die effizient neue Geschäftspartner, Aufträge und langfristige Geschäftsbeziehungen gewinnt'
+
+'Finanční výhoda':
+	de: 'Finanzieller Vorteil'
+
+'Finančně výhodnější a&nbsp;zároveň efektivnější <br> outsourcing je&nbsp;aktuálně na&nbsp;vzestupu <br> a představuje budoucnost obchodního procesu':
+	de: 'Finanziell vorteilhafter und gleichzeitig effizienter Outsourcing ist derzeit im Aufschwung und stellt die Zukunft des Geschäftsprozesses dar.'
+
+'milionu&nbsp;€ jsme pomohli <br> našim klientům vygenerovat':
+	de: 'Wir haben unseren Kunden geholfen zu generieren'
+
+'úspěšných projektů, <br> za kterými stojíme':
+	de: 'erfolgreiche Projekte, hinter denen wir stehen'
+
+'let zkušeností':
+	de: 'Jahre Erfahrung'
+
+'Během prvních dvou týdnů spolupráce s firmou Dexport jsme vyhledali významného zájemce o naše recyklační linky na správu odpadu. Jeho schopnost rychle a efektivně nalézt klíčové zákazníky byla mimořádná':
+	de: 'Innerhalb der ersten zwei Wochen der Zusammenarbeit mit Dexport haben wir einen bedeutenden Interessenten für unsere Recyclinganlagen gefunden. Seine Fähigkeit, schnell und effektiv Schlüsselkunden zu finden, war außergewöhnlich.'
+
+'Během posledních dvou let, kdy Dexport v zastoupení Martina Plcha spolupracoval s naší pracovní agenturou, přinesl významný přínos. Jeho akvizice vedly k nárůstu obratu o 2,3 mil. eur. Dexport se vyznačuje excelentními obchodními schopnostmi a schopností budovat dlouhodobé vztahy se zákazníky. Jeho přínos byl klíčovým faktorem v našem úspěchu':
+	de: 'In den letzten zwei Jahren, in denen Dexport in Vertretung von Martin Plch mit unserer Arbeitsagentur zusammenarbeitete, brachte er einen bedeutenden Beitrag. Seine Akquisitionen führten zu einem Umsatzanstieg von 2,3 Millionen Euro. Dexport zeichnet sich durch exzellente Geschäftsfähigkeiten und die Fähigkeit aus, langfristige Kundenbeziehungen aufzubauen. Sein Beitrag war ein entscheidender Faktor für unseren Erfolg.'
+
+'Před několika lety jsem měl příležitost spolupracovat s firmou Dexport. Jejich přínos při předání know-how, vyhledání dodavatelů v Polsku a distribuci na německém trhu byl klíčový. Dexport exceluje ve strategii obchodu s hlubokými znalostmi odvětví.':
+	de: 'Vor einigen Jahren hatte ich die Gelegenheit, mit Dexport zusammenzuarbeiten. Ihr Beitrag bei der Weitergabe von Know-how, der Suche nach Lieferanten in Polen und der Distribution auf dem deutschen Markt war entscheidend. Dexport glänzt mit einer tiefen Kenntnis der Branche und einer exzellenten Handelsstrategie'
+
+# kontaktujte nás
+'Kontaktujte nás':
+	de: 'Kontaktieren Sie uns'
+
+'Jméno a příjmení':
+	de: 'Name und Vorname'
+
+'Telefon nebo email':
+	de: 'Telefon oder E-Mail'
+
+'Společnost':
+	de: 'Firma'
+
+'Vaše zpráva':
+	de: 'Ihre Nachricht'
+
+'Město':
+	de: 'Stadt'
+
+'Odesláním souhlasíte se <a href="">zpracováním osobních údajů':
+	de: 'Durch das Absenden stimmen Sie der Verarbeitung personenbezogener Daten zu.'

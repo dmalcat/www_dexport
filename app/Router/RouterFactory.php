@@ -19,7 +19,7 @@ final class RouterFactory
 		LIVE      = 'live';
 
 	/** @var string[]  */
-	public const    REGIONS = [ 'cz', 'sk' ];
+	public const    REGIONS = [ 'cz', 'de' ];
 
 
 	/**
@@ -63,10 +63,10 @@ final class RouterFactory
 				'region'    => 'cz'
 			], Nette\Routing\Route::ONE_WAY);
 
-			$router->addRoute('//www.domain-name.sk', [
+			$router->addRoute('//www.domain-name.de', [
 				'presenter' => 'Homepage',
 				'action'    => 'default',
-				'region'    => 'sk'
+				'region'    => 'de'
 			], Nette\Routing\Route::ONE_WAY);
 
 			$router->addRoute('//www.domain-name.cz/', [
@@ -75,10 +75,10 @@ final class RouterFactory
 				'region' 		=> 'cz'
 			]);
 
-			$router->addRoute('//www.domain-name.sk/', [
+			$router->addRoute('//www.domain-name.de/', [
 				'presenter' 	=> 'Homepage',
 				'action' 		=> 'default',
-				'region' 		=> 'sk'
+				'region' 		=> 'de'
 			]);
 		}
 
